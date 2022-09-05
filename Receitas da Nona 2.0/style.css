@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #593C32;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+/* header */
+header {
+  background-image: linear-gradient(45deg, #593C32, #BF6B04, #593C32); 
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-decoration: underline white;
+  float: left;
+  width: 85%;
+}
+
+
+nav {
+  border: 2px solid white;
+  border-radius: 10px;
+  float: left;
+  width: 15%;
+  background: #bf7e04bf;
+  padding: 20px;
+
+}
+
+/* navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+a{
+  font-size: 30px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+a:hover{
+    color: #593C32;
+}
+
+
+
+/* main */
+article {
+  padding: 0;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+article h2{
+    background-image: linear-gradient(45deg,  #BF6B04,#e56312,  #BF6B04);
+    color: white;
+    text-align: center;
+    background-color: #e56312;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article h3{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+article h1{
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.receitas{
+    border-radius: 10px;
+    border: 5px  solid #e56312;
+    float: left;
+    border-radius: 10px;
+    width: 40%;
+}
+.fotosReceitas{
+   width: 100%;
+}
+
+section ul, section ol{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+h4{
+    text-align: center;
+}
+
+/*footer*/
+footer {
+  background-image: linear-gradient(45deg, #593C32, #BF6B04, #593C32); 
+  padding: 10px;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+.sobreImg{
+    width: 30%;
+}
+
+.sobreh1{
+    width: 50%;
+    float: left;
+}
+#textoSobre{
+}
+/* responsivo */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+.Vanilla-sticks-with-jasmine-1-hex { color: #D9A404; }
+.Vanilla-sticks-with-jasmine-2-hex { color: #BF7E04; }
+.Vanilla-sticks-with-jasmine-3-hex { color: #BF6B04; }
+.Vanilla-sticks-with-jasmine-4-hex { color: #593C32; }
+.Vanilla-sticks-with-jasmine-5-hex { color: #F2F2F2; }
